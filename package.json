@@ -1,0 +1,25 @@
+{
+  "name": "stockfish",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/official-stockfish/Stockfish.svg?branch=master)](https://travis-ci.org/official-stockfish/Stockfish) [![Build Status](https://ci.appveyor.com/api/projects/status/github/official-stockfish/Stockfish?branch=master&svg=true)](https://ci.appveyor.com/project/mcostalba/stockfish/branch/master)",
+  "main": "app/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgilangjanuar/Stockfish.git"
+  },
+  "author": "M Gilang Januar <mgilangjanuar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgilangjanuar/Stockfish/issues"
+  },
+  "homepage": "https://github.com/mgilangjanuar/Stockfish#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
