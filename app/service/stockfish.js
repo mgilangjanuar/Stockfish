@@ -15,7 +15,7 @@ class Stockfish {
     })
 
     sf.stdin.write(`position fen ${fen}\n`)
-    sf.stdin.write('go\n')
+    sf.stdin.write('go depth 15\n')
   }
 }
 
